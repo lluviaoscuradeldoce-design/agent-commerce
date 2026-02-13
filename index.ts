@@ -1,5 +1,5 @@
-import type { OpenClawPluginApi } from "openclaw/plugin-sdk";
-import { emptyPluginConfigSchema } from "openclaw/plugin-sdk";
+import type { OpenClawPluginApi } from "./src/openclaw-stubs.js";
+import { emptyPluginConfigSchema } from "./src/openclaw-stubs.js";
 import { WalletManager } from "./src/wallet.js";
 import { MarketplaceRegistry } from "./src/marketplace.js";
 import { EscrowManager } from "./src/escrow.js";
